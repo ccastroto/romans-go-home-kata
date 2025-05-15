@@ -14,8 +14,10 @@ public class RomanToDecimal {
     }
 
     public void Breaker(){
-        Matcher matcher = pattern.matcher(decimal);
-        System.out.println(matcher);
+        Matcher matcher = pattern.matcher(this.decimal);
+        while (matcher.find()){
+            System.out.println("Numero encontrado: " + matcher.group());
+        }
     }
 
 
