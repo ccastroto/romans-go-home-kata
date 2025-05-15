@@ -13,7 +13,10 @@ public class RomanToDecimal {
         this.decimal = decimal;
     }
 
-
+    public void Breaker(){
+        Matcher matcher = pattern.matcher(decimal);
+        System.out.println(matcher);
+    }
 
 
 }
