@@ -2,17 +2,17 @@ package edu.asestatuas.romansnumber;
 
 public enum RomanNumberSymbol {
 
-    I(1), V(5), X(10), L(50), C(100), D(500), M(1000),
-    IV(4), IX(9), XL(40), XC(90), CD(400), CM(900);
+    I(1), V(5), X(10), L(50), C(100), D(500), M(1000);
 
-    private int numero;
+
+    public int numero;
 
     RomanNumberSymbol(int numero) {
         this.numero = numero;
     }
 
     public  int getNumber() {
-        return numero;
+        return this.numero;
     }
 
 }
