@@ -23,7 +23,7 @@ public class RomanNumber {
         short value = 0;
         Matcher matcher = pattern.matcher(this.numeroRomano);
         while (matcher.find()){
-            value = (short)(matcher.group(patron).length());
+            value = (short) (value + RomanNumberSymbol.valueOf(matcher.group()).getNumber());
         }
         return value;
     }
