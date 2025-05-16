@@ -20,9 +20,11 @@ public class RomanNumber {
     }
 
     public short toDecimal(){
-        short value = 1000;
+        short value = 0;
         Matcher matcher = pattern.matcher(this.numeroRomano);
-        matcher.find();
+        while (matcher.find()){
+            value = (short)(matcher.group(patron).length());
+        }
         return value;
     }
 
