@@ -66,7 +66,7 @@ public class NumeroRomanoTest {
         assertEquals(3003, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sumatorio")
     public void una_D_test() {
 
