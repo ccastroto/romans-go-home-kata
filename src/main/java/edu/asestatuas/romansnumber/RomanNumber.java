@@ -1,7 +1,5 @@
 package edu.asestatuas.romansnumber;
 
-import edu.asestatuas.romansnumber.RomanToDecimal;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,7 +21,11 @@ public class RomanNumber {
         short value = 0;
         Matcher matcher = pattern.matcher(this.numeroRomano);
         while (matcher.find()){
-            value = (short) (value + RomanNumberSymbol.valueOf(matcher.group()).getNumber());
+            if (matcher.group(1) != null) {
+                value = (short) (value + RomanNumberSymbolResta.valueOf(matcher.group()).getNumber());
+            } else {
+                value = (short) (value + RomanNumberSymbol.valueOf(matcher.group()).getNumber());
+            }
         }
         return value;
     }
