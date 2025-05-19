@@ -1,6 +1,7 @@
 package edu.asestatuas.romansnumber;
 
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -36,7 +37,7 @@ public class NumeroRomanoTest {
          */
     }
 
-/*    @Test
+    @Test
     @Tag("sumatorio")
     public void tres_repeticiones_C_test() {
 
@@ -45,7 +46,7 @@ public class NumeroRomanoTest {
         assertEquals(3300, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sumatorio")
     public void tres_repeticiones_X_test() {
 
@@ -55,7 +56,7 @@ public class NumeroRomanoTest {
         assertEquals(3030, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sumatorio")
     public void tres_repeticiones_I_test() {
 
