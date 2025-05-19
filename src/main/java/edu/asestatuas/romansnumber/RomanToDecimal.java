@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 public class RomanToDecimal {
 
     private String decimal;
-    private final String patron = "(IV|IX|XL|XC|CD|CM)|([IVXLCDM])";
+    private final String patron = "(IV|IX|XL|XC|CD|CM)|(I|V|X|L|C|D|M)";
     Pattern pattern = Pattern.compile(patron);
 
     RomanToDecimal(String decimal) {
