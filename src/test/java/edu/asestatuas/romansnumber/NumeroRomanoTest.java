@@ -86,7 +86,7 @@ public class NumeroRomanoTest {
      * CD(400), CM(900)
      */
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupo_C_DM_test() {
 
@@ -99,7 +99,7 @@ public class NumeroRomanoTest {
         assertEquals(900, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupo_X_LC_test() {
 
@@ -112,7 +112,7 @@ public class NumeroRomanoTest {
         assertEquals(90, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupo_I_VX_test() {
 
@@ -125,7 +125,7 @@ public class NumeroRomanoTest {
         assertEquals(9, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupos_sumatorios_tres_digitos_test() {
         String testCase = "MMMDCCCLXXXVIII"; // 3888
@@ -133,7 +133,7 @@ public class NumeroRomanoTest {
         assertEquals(3888, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupos_sumatorios_test() {
         String testCase = "MMDCCLXXVII"; // 2777
@@ -141,7 +141,7 @@ public class NumeroRomanoTest {
         assertEquals(2777, numeroRomano.toDecimal());
     }
 
-/*    @Test
+    @Test
     @Tag("sustractivo")
     public void grupos_substractivos_test() {
         String testCase = "CDXLIV"; // 444
