@@ -9,7 +9,7 @@ hacemos la definción y los casos test de calcular el número en números romano
 
 - **Lenguaje:** Java 21
 - **Build Tool:** Maven
-- **Testing:** JUnit 4
+- **Testing:** JUnit 5
 - **IDE:** IntelliJ IDEA / VS Code
 ---
 ## Realizado por:
