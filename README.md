@@ -1,32 +1,39 @@
 ## Kata de "Romans Go Home" en Java
 
-Orientado del: https://github.com/dfleta/romans-go-home.git
+Repositorio original: [dfleta/romans-go-home](https://github.com/dfleta/romans-go-home.git)
 
-## Descripción:
-De apatir de los números romanos utilizando las expresiones regulares
-hacemos la definción y los casos test de calcular el número en números romanos.
-## Tecnologías utilizadas:
+## Descripción
+
+A partir de los números romanos, utilizando expresiones regulares,  
+definimos la lógica y los casos de prueba para calcular el número correspondiente en numeración romana.
+
+## Tecnologías utilizadas
 
 - **Lenguaje:** Java 21
 - **Build Tool:** Maven
 - **Testing:** JUnit 5
 - **IDE:** IntelliJ IDEA / VS Code
----
-## Realizado por:
-### Carlos Castro Aldrover 1º DAM
-### Breixo Jorge DoCampo 1º DAM
+
+
+
+## Realizado por
+
+###  - Carlos Castro Aldrover ([@ccastroto](https://github.com/ccastroto)) – 1º DAM
+### - Breixo Jorge DoCampo ([@breixo14](https://github.com/breixo14)) – 1º DAM
 
 ---
 
 ## Cómo ejecutar el proyecto
 
-### Maven:
+### Con Maven:
 
 ```bash
-# Compilar el package del proyecto:
-  mvn clean package
-# Ejecutar tests:
-  mvn test
+# Compilar el paquete del proyecto:
+mvn clean package
+
+# Ejecutar los tests:
+mvn test
+
 # Ejecutar el JAR:
-  java -jar target/ricky-buisiness-1.0-SNAPSHOT.jar
+java -jar target/ricky-buisiness-1.0-SNAPSHOT.jar
 ```
